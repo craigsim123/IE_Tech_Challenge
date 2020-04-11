@@ -1,0 +1,13 @@
+To run ripple.py and ripple_visualisation_only.py ensure that Python 3 is installed
+
+Then type the following at the command line:
+
+> python ripple_visualisation_only.py
+
+ripple_visualisation_only.py will produce the visualisation from the data contained with in 
+XRPLedger_ServerInfoLedgerCloseFrequency.csv
+
+> python ripple.py 
+
+ripple.py will call the XRP Ledger WebSocket API and sample data from the server_info funciton,
+it will format the data and produce a new visualisation and a new XRPLedger_ServerInfoLedgerCloseFrequency.cs:
